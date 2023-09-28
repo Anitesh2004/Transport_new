@@ -1,0 +1,41 @@
+
+.top
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color:whitesmoke;
+    font-size: 24px;
+    
+}
+.bookingArea
+{
+    text-align: center;
+    /* background-color: rgb(102, 102, 134); */
+    background-image: url("transport_image.jpg");
+    width: 100%;
+}
+.top>nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: 0;
+    width: 50%;
+}
+.availability
+{
+    text-align: center;
+}
+.services
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-repeat: repeat-y;
+
+}
+
