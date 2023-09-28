@@ -1,21 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Scroller</title>
-    <link rel="stylesheet" href="styles.css">
+  <style>
+    .scroll-container {
+      width: 100%;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+
+    .scroll-container img {
+      display: inline-block;
+      width: 300px; /* Adjust the width as needed */
+      height: auto;
+    }
+  </style>
 </head>
 <body>
-    <div class="image-scroller">
-        <div class="image-container">
-            <img src="truck.jpeg" alt="Image 1">
-            <img src="open_truck.jpeg" alt="Image 2">
-            <img src="container_image.png" alt="Image 3">
-            <!-- Add more images as needed -->
-        </div>
-        <button id="scroll-button">Scroll Images</button>
-    </div>
-    <script src="script.js"></script>
+  <div class="scroll-container">
+    <img src="image1.jpg" alt="Image 1">
+    <img src="image2.jpg" alt="Image 2">
+    <img src="image3.jpg" alt="Image 3">
+    <!-- Add more images here -->
+  </div>
 </body>
 </html>
